@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #classTable caption{
+            font-size: 30px;
+            font-weight: bold;
+            color: darkslategray;
+
+        }
+
+        #classTable
+        {
+            font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+            width:80%;
+            border-color: forestgreen;
+            border-collapse:collapse;
+            text-align: center;
+        }
+
+        #classTable td, #classTable th
+        {
+            font-size:1em;
+            border:1px solid forestgreen;
+            padding:3px 7px 2px 7px;
+            text-align: center;
+        }
+
+        #classTable th
+        {
+            font-size:1.1em;
+            padding-top:5px;
+            padding-bottom:4px;
+            background-color: forestgreen;
+            color:white;
+        }
+
+        #classTable tr.alt td
+        {
+            color:black;
+            background-color: lightgreen;
+        }
+        #classTable td.time
+        {
+            color:black;
+            background-color: white;
+            width: 45px;
+        }
+
+        #classTable tr:hover{
+            background-color: yellow;
+        }
+        #classTable tr.alt td:hover{
+            background-color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+    <table id ="classTable",border="1" align="center" >
+        <caption>课程表</caption>
+        <thead>
+        <tr>
+            <td class="time"></td>
+            <th>星期一</th>
+            <th>星期二</th>
+            <th>星期三</th>
+            <th>星期四</th>
+            <th>星期五</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="time" rowspan="5">上午</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>Blink</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="alt">
+            <td></td>
+            <td></td>
+            <td>Blink</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>Blink</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="alt">
+            <td></td>
+            <td></td>
+            <td>Blink</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="time" rowspan="5">下午</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>Blink</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="alt">
+            <td>数学</td>
+            <td></td>
+            <td>Blink</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>Blink</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="alt">
+            <td></td>
+            <td></td>
+            <td>Blink</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
